@@ -65,6 +65,12 @@ export default () => {
         <p>Dados pegos pelo site <a href="https://www.themoviedb.org/" target="_blanck">Themoviedb.org</a></p>
 
       </footer>
+
+      {movieList.length <= 0 && 
+        <div className="loading">
+            <img src="https://media.wired.com/photos/592744d3f3e2356fd800bf00/master/w_960,c_limit/Netflix_LoadTime.gif" alt="" />
+        </div>
+      }
     </div>
   )
 }
