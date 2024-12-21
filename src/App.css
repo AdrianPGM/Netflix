@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body {
+    background-color: #111;
+    color: white;
+}
+
+.lists {
+    margin-top: -150px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+    background: #111;
+    padding-bottom: 50px;
+}
+
+footer a {
+    color: #990404;
+    text-decoration: none;
+}
